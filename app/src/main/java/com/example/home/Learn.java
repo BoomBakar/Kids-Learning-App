@@ -46,13 +46,14 @@ public class Learn extends AppCompatActivity {
             buttons[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String text = buttons[i].getText().toString();
-                    Intent intent=new Intent(Learn.this,Images.class);
+                    String text = buttons.toString();
+                    Intent intent=new Intent(Learn.this,LearningImages.class);
                     intent.putExtra("Alphabet",text);
                     startActivity(intent);
                 }
             });
         }
+
 
 
     }
