@@ -40,7 +40,7 @@ public class Test extends AppCompatActivity {
         op1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Test.this,Result.this);
+                Intent intent = new Intent(Test.this,Result.class);
                 intent.putExtra("option","Correct");
                 startActivity(intent);
             }
@@ -48,7 +48,7 @@ public class Test extends AppCompatActivity {
         op2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Test.this,Result.this);
+                Intent intent = new Intent(Test.this,Result.class);
                 intent.putExtra("option","Wrong");
                 startActivity(intent);
             }
@@ -56,7 +56,7 @@ public class Test extends AppCompatActivity {
         op3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Test.this,Result.this);
+                Intent intent = new Intent(Test.this,Result.class);
                 intent.putExtra("option","Wrong");
                 startActivity(intent);
             }
@@ -64,7 +64,7 @@ public class Test extends AppCompatActivity {
         op4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Test.this,Result.this);
+                Intent intent = new Intent(Test.this,Result.class);
                 intent.putExtra("option","Wrong");
                 startActivity(intent);
             }
