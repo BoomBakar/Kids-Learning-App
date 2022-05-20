@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        /*test = findViewById(R.id.test);
+        test = findViewById(R.id.test);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,Test.class);
                 startActivity(intent);
             }
-        });*/
+        });
         repo = findViewById(R.id.repo);
         repo.setOnClickListener(new View.OnClickListener() {
             @Override
